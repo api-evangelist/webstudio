@@ -1,7 +1,17 @@
 aid: webstudio
 name: Webstudio
-description: Webstudio is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Webstudio is an advanced open-source visual website builder and Webflow
+  alternative that lets designers and developers build fast, maintainable
+  websites using modern web standards without writing code. It offers full CSS
+  editing, CSS Grid and Flexbox layout, scroll-driven animations, design tokens,
+  a CMS that connects to any HTTP API (Supabase, Airtable, WordPress, Notion,
+  Hygraph, Baserow), webhook forms, and one-click publishing to Webstudio's cloud
+  (Cloudflare) or self-hosting on Vercel, Netlify, Cloudflare Pages, or Docker.
+  Its developer surface is agent-native: the `webstudio` CLI links, syncs, builds,
+  audits, and publishes projects, and ships a first-party MCP server that exposes
+  the Project's native visual-builder model to AI clients (Claude, Codex, Cursor,
+  VS Code). Backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://webstudio.is/cgi/image/visual-builder_6p7VS5-OlwHXPek83iJwo.png?format=raw
 tags:
 - Company
+- Website Builder
+- No-Code
+- Visual Development
+- Web Design
+- CMS
+- Open Source
+- CLI
+- MCP
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://webstudio.is
+  url: https://webstudio.is
+- type: Documentation
+  url: https://docs.webstudio.is/
+- type: GettingStarted
+  url: https://docs.webstudio.is/basics/building-your-first-site
+- type: GitHubOrganization
+  url: https://github.com/webstudio-is
+- type: Blog
+  url: https://webstudio.is/blog
+- type: Support
+  url: https://wstd.us/community
+- type: Roadmap
+  url: https://wstd.us/roadmap
+- type: Pricing
+  url: https://webstudio.is/pricing
+- type: SignUp
+  url: https://apps.webstudio.is/dashboard
+- type: TermsOfService
+  url: https://webstudio.is/terms
+- type: PrivacyPolicy
+  url: https://webstudio.is/privacy
+- type: ChangeLog
+  url: https://github.com/webstudio-is/webstudio/releases
+- type: ChangeLog
+  url: changelog/webstudio-changelog.yml
+- type: MCPServer
+  url: mcp/webstudio-mcp.yml
+- type: CLI
+  url: cli/webstudio-cli.yml
+- type: Packages
+  url: packages/webstudio-packages.yml
+- type: LLMsTxt
+  url: llms/webstudio-llms.txt
+- type: DomainSecurity
+  url: security/webstudio-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

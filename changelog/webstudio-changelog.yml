@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/webstudio-is/webstudio/releases
+alias_url: https://wstd.us/changelog
+scheme: semver
+format: github-releases
+current: 0.281.0
+entries:
+- version: 0.281.0
+  date: '2026-07-21'
+  highlights: Drag image assets onto canvas; deep-link Builder instances.
+- version: 0.280.1
+  date: '2026-07-18'
+  highlights: Fixed insertion of content-model component parts.
+- version: 0.280.0
+  date: '2026-07-17'
+  highlights: Asset folders in the manager; safer MCP authoring.
+- version: 0.279.0
+  date: '2026-07-16'
+  highlights: Draft pages introduced; improved MCP authoring.
+- version: 0.278.0
+  date: '2026-07-15'
+  highlights: Semantic Collection authoring added to MCP.
+- version: 0.277.0
+  date: '2026-07-14'
+  highlights: Enhanced MCP project audits and visual verification.
+- version: 0.276.1
+  date: '2026-07-13'
+  highlights: MCP bug fixes and improvements.
+- version: 0.276.0
+  date: '2026-07-12'
+  highlights: MCP update 3; toolchain migration to oxc.

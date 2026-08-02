@@ -1,0 +1,68 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.webstudio.is/university/cli.md
+name: Webstudio CLI
+package: webstudio
+runtime: Node.js 22+
+install:
+- npx webstudio <command>
+- npx --yes webstudio@latest <command>
+authentication:
+  method: share-link-token
+  detail: >-
+    Authenticate a local directory with `webstudio link --link
+    "<share-link-with-build-access>"`. The share link must have Build access. The
+    global Webstudio config stores the origin and share-link token; project id is
+    stored in .webstudio/config.json.
+config:
+  project: .webstudio/config.json
+  data_bundle: .webstudio/data.json
+  assets: .webstudio/assets
+commands:
+- name: link
+  description: Connect a local directory to a Webstudio Project (interactive or via
+    --link share link).
+- name: init
+  description: Configure a Project non-interactively, with --json output.
+- name: sync
+  description: Download the Project bundle locally to .webstudio/data.json.
+- name: build
+  description: Scaffold a deployable app.
+  flags:
+  - --template docker
+  - --template ssg
+- name: publish
+  description: Publish, unpublish, and inspect publishing jobs.
+- name: domains
+  description: Manage and verify custom domains.
+- name: audit
+  description: Run project-quality checks (accessibility, security, SEO, performance).
+  flags:
+  - --json
+- name: man
+  description: Retrieve machine-readable manuals for api, llm, and mcp.
+  subcommands:
+  - man api
+  - man llm
+  - man mcp
+  flags:
+  - --json
+- name: schema
+  description: Retrieve current schemas (e.g. the API schema).
+  subcommands:
+  - schema api
+  flags:
+  - --json
+- name: connect
+  description: Update a supported client's MCP configuration.
+  targets:
+  - claude
+  - codex
+  - cursor
+  - vscode
+- name: mcp
+  description: Start the Webstudio MCP server directly (stdio).
+flows:
+- Link a project, sync its bundle, edit locally, then publish.
+- Configure an AI client's MCP with `connect`, or start the server with `mcp`.
+- Export a static site (build --template ssg) or dynamic app (build --template docker).

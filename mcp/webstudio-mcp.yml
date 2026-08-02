@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://docs.webstudio.is/university/cli.md
+server:
+  name: webstudio
+  transport: stdio
+  launch: npx webstudio mcp
+  distribution: bundled-in-cli
+  package: webstudio
+auth:
+  method: share-link-token
+  detail: Uses the same global Webstudio config (origin + share-link token) as the
+    CLI; the linked Project must have Build access.
+clients:
+  connect_command: npx webstudio connect <client>
+  supported:
+  - claude
+  - codex
+  - cursor
+  - vscode
+capabilities: >-
+  Exposes the Project's native visual-builder model for agents: semantic visual
+  editing, design-system-aware styling, dynamic content authoring, project quality
+  audits, visual verification, asset workflows, shared content authoring, draft-page
+  verification, and publishing. Destructive operations require explicit confirmation
+  bound to reviewed dry runs, with validation of semantic inputs and rejection of
+  invalid references.
+notes: >-
+  Official, first-party MCP server shipped inside the `webstudio` CLI. MCP support
+  is actively developed (multiple MCP-focused releases through 0.281.0, Jul 2026).
+  Tool list is not statically published; introspect via `webstudio man mcp --json`.

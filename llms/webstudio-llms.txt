@@ -1,0 +1,166 @@
+# Webstudio Documentation
+
+## Product Docs
+
+- [Welcome](https://docs.webstudio.is/basics/readme.md): New to Webstudio?
+- [Intro](https://docs.webstudio.is/basics/intro.md)
+- [Building your first site](https://docs.webstudio.is/basics/building-your-first-site.md)
+- [Courses](https://docs.webstudio.is/basics/courses.md): Community-made courses
+- [Roadmap & Links](https://docs.webstudio.is/basics/roadmap-and-links.md)
+- [FAQs](https://docs.webstudio.is/basics/faq.md)
+- [Foundations](https://docs.webstudio.is/university/foundations.md)
+- [Dashboard](https://docs.webstudio.is/university/foundations/dashboard.md): The Dashboard is your central hub for managing all your Webstudio projects,  featuring workspaces, search, organization with tags, and multiple view options.
+- [Anatomy of the Webstudio builder](https://docs.webstudio.is/university/foundations/anatomy-of-the-webstudio-builder.md): This guide discusses the anatomy of the Webstudio Builder, an all-in-one visual development platform that allows you to build advanced websites.
+- [Navigator](https://docs.webstudio.is/university/foundations/navigator.md): Use the Navigator to view, select, and organize instances on your page.
+- [Layout & Flexbox](https://docs.webstudio.is/university/foundations/layout-and-flexbox.md): Learn how to create multi-column layouts and control element positioning using Flexbox in Webstudio.
+- [Layout & Grid](https://docs.webstudio.is/university/foundations/css-grid.md): Learn how to create two-dimensional layouts using CSS Grid in Webstudio — define columns, rows, named areas, and position child elements visually.
+- [Responsive design](https://docs.webstudio.is/university/foundations/responsive-design.md): Learn how breakpoints work in Webstudio to create responsive designs that adapt to any screen size.
+- [Breakpoints](https://docs.webstudio.is/university/foundations/breakpoints.md): Add, edit, and manage breakpoints to control how your site responds to different screen sizes and conditions.
+- [CSS variables](https://docs.webstudio.is/university/foundations/css-variables.md): CSS variables allow you to attach a value to a variable and reuse that variable throughout the Style Panel inputs.
+- [Design tokens](https://docs.webstudio.is/university/foundations/design-tokens.md): Design tokens enable the creation of consistent designs by packaging up multiple styles so that on any instance you add that Token, those styles will show up and stay in sync.
+- [Style panel](https://docs.webstudio.is/university/foundations/style-panel.md): Use the Style Panel to apply CSS styles to any instance on your page.
+- [States and selectors](https://docs.webstudio.is/university/foundations/states-and-selectors.md): Style elements differently based on user interaction (hover, focus, active) or target virtual parts of an element (::before, ::after) using states and selectors.
+- [Data variables](https://docs.webstudio.is/university/foundations/variables.md): Data variables enable the definition and use of a value throughout the page.
+- [Expression editor](https://docs.webstudio.is/university/foundations/expression-editor.md): Create logical expressions directly in the UI, enabling conditional display, fallback values, concatenation, and more.
+- [Custom classes & attributes](https://docs.webstudio.is/university/foundations/custom-classes-and-attributes.md): custom classes, IDs, and data attributes allow you to target elements with custom code, animation libraries, and external scripts.
+- [Transforms](https://docs.webstudio.is/university/foundations/transforms.md): CSS Transforms enable you to rotate, scale, skew, and translate elements to create dynamic visual effects.
+- [Animations](https://docs.webstudio.is/university/foundations/animations.md): Scroll-Driven animations are currently the main focus of Webstudio animations.
+- [CMS](https://docs.webstudio.is/university/foundations/cms.md): Connect to your existing CMS or the one that works best for you.
+- [Reusability & maintainability](https://docs.webstudio.is/university/foundations/reusability.md)
+- [Copy-Paste](https://docs.webstudio.is/university/foundations/copy-paste.md): Webstudio supports copy-pasting within the platform and from external sources.
+- [CSS](https://docs.webstudio.is/university/foundations/copy-paste/css.md): Paste CSS into Webstudio, and it'll be translated to the various fields in the Style Panel.
+- [HTML with CSS](https://docs.webstudio.is/university/foundations/copy-paste/html-with-css.md): Paste HTML with style blocks and convert CSS classes into Webstudio styles.
+- [HTML with Tailwind](https://docs.webstudio.is/university/foundations/copy-paste/html-with-tailwind.md): Paste HTML with Tailwind CSS classes and convert utilities into Webstudio styles.
+- [Markdown](https://docs.webstudio.is/university/foundations/copy-paste/markdown.md): Pasting Markdown automatically adds the respective components.
+- [Webflow](https://docs.webstudio.is/university/foundations/copy-paste/webflow.md): Webstudio supports pasting Webflow Elements, converting them from Webflow format to Webstudio format.
+- [SVG](https://docs.webstudio.is/university/foundations/copy-paste/svg.md): Paste SVG code into Webstudio as native SVG components.
+- [Referenced Images](https://docs.webstudio.is/university/foundations/copy-paste/images.md): Understand how referenced images are handled when pasting content.
+- [Commands & search](https://docs.webstudio.is/university/foundations/commands-and-search.md): The Commands & search Panel is a centralized place to navigate the builder and perform actions such as switching pages and adding components — all with the keyboard.
+- [Assets](https://docs.webstudio.is/university/foundations/assets.md): Upload and manage images, fonts, and other files used in your project.
+- [SEO settings](https://docs.webstudio.is/university/foundations/seo-settings.md): Webstudio provides comprehensive SEO features.
+- [Performance](https://docs.webstudio.is/university/foundations/performance.md): Achieve perfect Lighthouse scores with Webstudio's built-in optimizations and best practices.
+- [Shortcuts](https://docs.webstudio.is/university/foundations/shortcuts.md): The list of keyboard shortcuts to build in Webstudio.
+- [Page settings](https://docs.webstudio.is/university/foundations/page-settings.md): Configure per-page settings such as path, SEO, authentication, redirects, and metadata.
+- [Page templates](https://docs.webstudio.is/university/foundations/page-templates.md): Create reusable page blueprints inside a project.
+- [Project settings](https://docs.webstudio.is/university/foundations/project-settings.md): Set project-wide configuration, including redirects, authentication, and publishing options.
+- [Modes](https://docs.webstudio.is/university/foundations/modes.md): Modes change the Builder’s behavior, such as previewing your site without distractions.
+- [Share links](https://docs.webstudio.is/university/foundations/share-links.md): Share links enable you to share your Webstudio Project with other people, set permissions, and create cloneable project copies.
+- [Publishing & custom domains](https://docs.webstudio.is/university/foundations/publishing-and-custom-domains.md): Learn how to connect a custom domain to your Project.
+- [Core Components](https://docs.webstudio.is/university/core-components.md)
+- [Element](https://docs.webstudio.is/university/core-components/element.md): The Element component is a flexible container for building layouts in Webstudio.
+- [Link](https://docs.webstudio.is/university/core-components/link.md): Link lets you link to websites, pages, emails, and more from text, images, and more.
+- [Slot](https://docs.webstudio.is/university/core-components/slot.md): Slots are containers for anything that you want to re-use across your site, like a nav menu.
+- [Separator](https://docs.webstudio.is/university/core-components/separator.md): Add visual dividers between content sections in Webstudio.
+- [Text](https://docs.webstudio.is/university/core-components/text.md): Add and style text content in Webstudio with the Text component.
+- [Heading](https://docs.webstudio.is/university/core-components/heading.md): Add headings (H1-H6) to structure content in Webstudio.
+- [Paragraph](https://docs.webstudio.is/university/core-components/paragraph.md): Add paragraph text blocks to your Webstudio pages.
+- [Inline Text](https://docs.webstudio.is/university/core-components/inline-text.md): Style inline text spans within paragraphs in Webstudio.
+- [Blockquote](https://docs.webstudio.is/university/core-components/blockquote.md): Display quotations with the Blockquote component in Webstudio.
+- [Code Text](https://docs.webstudio.is/university/core-components/code-text.md): Display inline code snippets with the Code Text component in Webstudio.
+- [Form](https://docs.webstudio.is/university/core-components/form.md): Forms are used for searches, filters, and custom functionality.
+- [Webhook Form](https://docs.webstudio.is/university/core-components/webhook-form.md): Webhook Forms enable form submissions to get sent to an email address and optionally third-party services like Airtable, n8n, or Zapier.
+- [Button](https://docs.webstudio.is/university/core-components/button.md): Add clickable buttons to your Webstudio site with the Button component.
+- [Label](https://docs.webstudio.is/university/core-components/label.md): Add accessible labels to form inputs in Webstudio.
+- [Input](https://docs.webstudio.is/university/core-components/input.md): Add text input fields to forms in Webstudio.
+- [Text Area](https://docs.webstudio.is/university/core-components/textarea.md): Add multi-line text input fields to forms in Webstudio.
+- [Select](https://docs.webstudio.is/university/core-components/select.md): Add dropdown select inputs to forms in Webstudio.
+- [Checkbox](https://docs.webstudio.is/university/core-components/checkbox.md): Add checkbox inputs to forms in Webstudio.
+- [Radio Button](https://docs.webstudio.is/university/core-components/radio-button.md): Add radio button inputs for single-choice selections in Webstudio forms.
+- [Image](https://docs.webstudio.is/university/core-components/image.md): In this article, we will learn how to render optimized, responsive images for a site using the Image Component in Webstudio.
+- [Video](https://docs.webstudio.is/university/core-components/video.md): Embed self-hosted videos in Webstudio pages.
+- [Vimeo](https://docs.webstudio.is/university/core-components/vimeo.md): Embed Vimeo videos in your Webstudio pages.
+- [Vimeo Background Video](https://docs.webstudio.is/university/core-components/vimeo-background-video.md): Learn how to use the Vimeo Component as a background video on your site.
+- [YouTube](https://docs.webstudio.is/university/core-components/youtube.md): The YouTube component provides extensive options to embed YouTube videos and playlists on your site.
+- [Collection](https://docs.webstudio.is/university/core-components/collection.md): Use Collection to iterate over data and repeat the same structure but with different data for each iteration.
+- [Content Embed](https://docs.webstudio.is/university/core-components/content-embed.md): Content Embed allows styling HTML, which can be provided via the Code property statically or loaded dynamically from any Resource, for example, from a CMS.
+- [Markdown Embed](https://docs.webstudio.is/university/core-components/markdown-embed.md): Markdown Embed converts Markdown to HTML and enables styling it.
+- [Content Block](https://docs.webstudio.is/university/core-components/content-block.md): Content Block designates regions on the page where pre-styled instances can be inserted in Content mode.
+- [List](https://docs.webstudio.is/university/core-components/list.md): The List Component is used to create lists that structure and organize content within a webpage. You can create a list in your Webstudio project with the “List” and “List Item” Components.
+- [HTML Embed](https://docs.webstudio.is/university/core-components/html-embed.md): Embed custom HTML, CSS, and JavaScript in Webstudio pages.
+- [Animation Group](https://docs.webstudio.is/university/core-components/animation-group.md): The foundation of all animations in Webstudio.
+- [Text Animation](https://docs.webstudio.is/university/core-components/text-animation.md): The Text Animation component simplifies animating text by automatically splitting it into individual words or characters, allowing for dynamic effects without manual wrapping.
+- [Video Animation](https://docs.webstudio.is/university/core-components/video-animation.md): The Video Animation component renders a video and starts it based on Animation Group settings.
+- [Stagger Animation](https://docs.webstudio.is/university/core-components/stagger-animation.md): Creates a cascading effect by animating child elements sequentially.
+- [Head Slot](https://docs.webstudio.is/university/core-components/head-slot.md): Head Slot is a component that enables visually customizing the \<head> on a per-page basis. It’s useful for setting canonical URLs, alternate links, and more.
+- [JSON-LD](https://docs.webstudio.is/university/core-components/json-ld.md): Add structured data to a page with valid JSON-LD in the document head.
+- [XML Node](https://docs.webstudio.is/university/core-components/xml-node.md): The XML Node is used to create an XML document, such as a sitemap.
+- [XML Time](https://docs.webstudio.is/university/core-components/xml-time.md): Format dates in XML sitemaps and RSS feeds using the XML Time component.
+- [Time](https://docs.webstudio.is/university/core-components/time.md): Display dates and times with semantic markup using the Time component in Webstudio.
+- [Built with Webstudio](https://docs.webstudio.is/university/core-components/built-with-webstudio.md): Display a 'Built with Webstudio' badge on your site.
+- [CLI](https://docs.webstudio.is/university/cli.md): Webstudio's Command Line Interface (CLI) allows you to interact directly with your Projects from the command line.
+- [Inception](https://docs.webstudio.is/university/inception.md): Generate, compare, refine, and reuse AI design directions with Inception.
+- [Radix UI Components](https://docs.webstudio.is/university/radix.md)
+- [Accordion](https://docs.webstudio.is/university/radix/accordion.md): A vertically stacked set of interactive headings that each reveal an associated section of content.
+- [Checkbox](https://docs.webstudio.is/university/radix/checkbox.md): Add accessible checkbox controls with Radix UI in Webstudio.
+- [Collapsible](https://docs.webstudio.is/university/radix/collapsible.md): An interactive component which expands/collapses a panel.
+- [Dialog](https://docs.webstudio.is/university/radix/dialog.md): Create modal dialogs and popups with Radix UI in Webstudio.
+- [Label](https://docs.webstudio.is/university/radix/label.md): Add accessible form labels with Radix UI in Webstudio.
+- [Navigation Menu](https://docs.webstudio.is/university/radix/navigation-menu.md): Build accessible navigation menus with Radix UI in Webstudio.
+- [Popover](https://docs.webstudio.is/university/radix/popover.md): Create floating popover elements with Radix UI in Webstudio.
+- [Radio Group](https://docs.webstudio.is/university/radix/radio-group.md): Add accessible radio button groups with Radix UI in Webstudio.
+- [Select](https://docs.webstudio.is/university/radix/select.md): Create accessible dropdown selects with Radix UI in Webstudio.
+- [Sheet](https://docs.webstudio.is/university/radix/sheet.md): Build slide-out panels and drawers with Radix UI in Webstudio.
+- [Switch](https://docs.webstudio.is/university/radix/switch.md): Add toggle switches with Radix UI in Webstudio.
+- [Tabs](https://docs.webstudio.is/university/radix/tabs.md): Create tabbed interfaces with Radix UI in Webstudio.
+- [Tooltip](https://docs.webstudio.is/university/radix/tooltip.md): Add informational tooltips with Radix UI in Webstudio.
+- [Marketplace](https://docs.webstudio.is/university/marketplace.md): The Marketplace is integrated into the Builder and offers templates contributed by Webstudio and the community.
+- [Webstudio AI](https://docs.webstudio.is/university/webstudio-ai.md)
+- [Self-Hosting](https://docs.webstudio.is/university/self-hosting.md): Webstudio can be self-hosted, putting you in control of your hosting, pricing, security, and compliance.
+- [Download](https://docs.webstudio.is/university/self-hosting/download.md): Export your Webstudio Project with a click of a button.
+- [Cloudflare Pages](https://docs.webstudio.is/university/self-hosting/cloudflare-pages.md): Learn how to deploy your static site to Cloudflare Pages.
+- [GitHub Pages](https://docs.webstudio.is/university/self-hosting/github-pages.md): Learn how to deploy your project to GitHub Pages.
+- [Netlify](https://docs.webstudio.is/university/self-hosting/netlify.md): Learn how to deploy your project to Netlify.
+- [Vercel](https://docs.webstudio.is/university/self-hosting/vercel.md): Learn how to deploy your project to Vercel.
+- [AWS with Flightcontrol (Docker)](https://docs.webstudio.is/university/self-hosting/flightcontrol.md): How to deploy your Website Project to Flightcontrol using the Docker template.
+- [Digital Ocean with Coolify (Docker)](https://docs.webstudio.is/university/self-hosting/digital-ocean-coolify.md): How to deploy your Website Project to Digital Ocean using Coolify.
+- [Hetzner with Coolify (Docker)](https://docs.webstudio.is/university/self-hosting/hetzner-coolify.md): How to deploy your Webstudio Project to Hetzner using Coolify.
+- [VPS with Docker](https://docs.webstudio.is/university/self-hosting/vps-with-docker.md)
+- [How-Tos](https://docs.webstudio.is/university/how-tos.md)
+- [How to add icons](https://docs.webstudio.is/university/how-tos/how-to-add-icons.md): Add icons to your Webstudio site using SVGs and icon libraries.
+- [How to use custom fonts](https://docs.webstudio.is/university/how-tos/how-to-use-custom-fonts.md): Add custom fonts to your Webstudio site.
+- [How to create fluid video backgrounds with Vimeo](https://docs.webstudio.is/university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md): Create fluid video backgrounds in Webstudio using Vimeo.
+- [How to crop an image without cropping the original](https://docs.webstudio.is/university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md): Crop images visually in Webstudio without modifying the original file.
+- [How to create responsive navigation](https://docs.webstudio.is/university/how-tos/how-to-create-responsive-navigation.md): Learn how to build a responsive navigation menu with desktop links and a mobile hamburger menu using Webstudio.
+- [How to add a GSAP animation](https://docs.webstudio.is/university/how-tos/how-to-add-a-gsap-animation.md): Add GSAP animations to your Webstudio site with custom code.
+- [How to make a custom 404 page](https://docs.webstudio.is/university/how-tos/how-to-make-a-custom-404-page.md): Create a custom 404 error page in Webstudio.
+- [Build Your Own Directory Website with Airtable](https://docs.webstudio.is/university/how-tos/build-your-own-directory-website-with-airtable.md): Build a directory website in Webstudio using Airtable as a CMS.
+- [Using filters to dynamically display content](https://docs.webstudio.is/university/how-tos/using-filters-to-dynamically-display-content.md): When building with Webstudio, you get dynamic, not static. This enables providing search and filters to your visitors. Whether you want to filter your blog or create a dashboard, you can use Webstudio
+- [Integrations](https://docs.webstudio.is/university/integrations.md): This page contains a list of guides on connecting to various systems. The list is not exhaustive, as Webstudio supports fetching data from any HTTP API.
+- [How to build a frontend for Supabase using Webstudio](https://docs.webstudio.is/university/integrations/supabase.md): Use Supabase as a backend database for your Webstudio site.
+- [How to build a frontend for Airtable using Webstudio](https://docs.webstudio.is/university/integrations/airtable-frontend.md): Learn how to use Webstudio's advanced visual builder to create an Airtable frontend without writing code, including an overview page with filters, a details page, and a sitemap.
+- [How to integrate a Webhook Form with Airtable](https://docs.webstudio.is/university/integrations/airtable-form-webhook.md): This article will explore the process for integrating your Webstudio Form with Airtable using a simple automation.
+- [How to build a frontend for Baserow using Webstudio](https://docs.webstudio.is/university/integrations/baserow.md): Learn how to use Webstudio's visual builder to create a Baserow frontend with filters and dynamic pages.
+- [How to build a frontend for Hygraph using Webstudio](https://docs.webstudio.is/university/integrations/hygraph.md): Learn how to use Webstudio's advanced visual builder to create a Hygraph frontend without writing code, including a blog overview page, a blog page, and a sitemap.
+- [How to build a WordPress frontend using Webstudio (no-code builder)](https://docs.webstudio.is/university/integrations/wordpress.md): Learn how to use Webstudio's advanced visual builder to create a WordPress frontend without writing code, including an overview page, a blog page, and a sitemap.
+- [How to integrate a Notion database with Webstudio](https://docs.webstudio.is/university/integrations/notion.md): Learn how to use Webstudio's advanced website builder to create a Notion frontend, including an overview page with filters, a details page, and a sitemap.
+- [How to integrate Webhook Form with Pabbly](https://docs.webstudio.is/university/integrations/pabbly.md): Connect Webstudio forms to Pabbly Connect for automation.
+- [How to integrate Webhook Form with Zapier](https://docs.webstudio.is/university/integrations/zapier.md): Connect Webstudio forms to Zapier for workflow automation.
+- [How to integrate Webhook Form with N8N](https://docs.webstudio.is/university/integrations/n8n.md): Connect Webstudio forms to n8n for workflow automation.
+- [How to integrate Flotiq with Webstudio](https://docs.webstudio.is/university/integrations/flotiq.md): Learn how to integrate Flotiq with Webstudio to build dynamic,  content-driven websites—visually.
+- [Craft](https://docs.webstudio.is/university/craft.md): Craft is the standard for building with Webstudio.
+- [Contributing for Designers](https://docs.webstudio.is/contributing/contributing-for-designers.md)
+- [Contributing for Developers](https://docs.webstudio.is/contributing/contributing-for-developers.md)
+- [Contributing to the Marketplace](https://docs.webstudio.is/contributing/marketplace.md): You can contribute free or paid templates by creating a Project and submitting it for review. Approved templates will appear in the Marketplace.
+- [Errors](https://docs.webstudio.is/errors.md): This page will help you better understand error messages you may encounter.
+- [Connecting your Hostinger Domain to Webstudio](https://docs.webstudio.is/errors/connecting-your-hostinger-domain-to-webstudio.md)
+- [Worker not found](https://docs.webstudio.is/errors/worker-not-found.md)
+- [Misc](https://docs.webstudio.is/misc.md)
+- [Account Limits](https://docs.webstudio.is/misc/account-limits.md)
+- [Webstudio Support Process](https://docs.webstudio.is/misc/webstudio-support-process.md): This page highlights where to get support for all Webstudio customers.
+- [Fixing overflow issues](https://docs.webstudio.is/misc/fixing-overflow-issues.md): How to fix overflowing content so the screen doesn't scroll horizontally.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.webstudio.is/basics/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

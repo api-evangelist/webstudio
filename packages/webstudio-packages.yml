@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/webstudio
+packages:
+- language: javascript
+  registry: npm
+  name: webstudio
+  url: https://www.npmjs.com/package/webstudio
+  install: npx webstudio@latest
+  description: Webstudio CLI — link, sync, build, publish, audit, and run the MCP
+    server for a Webstudio Project.
+  license: AGPL-3.0-or-later
+  latest: 0.281.0
+  bin:
+  - webstudio
+  - webstudio-cli
+  official: true
+notes: >-
+  The `webstudio` npm package is the official first-party command-line interface
+  (published by Webstudio, github@webstudio.is). It is a CLI/tool rather than a
+  language client SDK. The deprecated `@webstudio-is/cli` package and the old
+  `wstd` command should not be used.
