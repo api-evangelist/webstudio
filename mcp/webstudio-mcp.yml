@@ -10,8 +10,8 @@ server:
   package: webstudio
 auth:
   method: share-link-token
-  detail: Uses the same global Webstudio config (origin + share-link token) as the
-    CLI; the linked Project must have Build access.
+  detail: Uses the same global Webstudio config (origin + share-link token) as the CLI; the linked Project
+    must have Build access.
 clients:
   connect_command: npx webstudio connect <client>
   supported:
@@ -19,14 +19,16 @@ clients:
   - codex
   - cursor
   - vscode
-capabilities: >-
-  Exposes the Project's native visual-builder model for agents: semantic visual
-  editing, design-system-aware styling, dynamic content authoring, project quality
-  audits, visual verification, asset workflows, shared content authoring, draft-page
-  verification, and publishing. Destructive operations require explicit confirmation
-  bound to reviewed dry runs, with validation of semantic inputs and rejection of
-  invalid references.
-notes: >-
-  Official, first-party MCP server shipped inside the `webstudio` CLI. MCP support
-  is actively developed (multiple MCP-focused releases through 0.281.0, Jul 2026).
-  Tool list is not statically published; introspect via `webstudio man mcp --json`.
+capabilities: 'Exposes the Project''s native visual-builder model for agents: semantic visual editing,
+  design-system-aware styling, dynamic content authoring, project quality audits, visual verification,
+  asset workflows, shared content authoring, draft-page verification, and publishing. Destructive operations
+  require explicit confirmation bound to reviewed dry runs, with validation of semantic inputs and rejection
+  of invalid references.'
+notes: Official, first-party MCP server shipped inside the `webstudio` CLI. MCP support is actively developed
+  (multiple MCP-focused releases through 0.281.0, Jul 2026). Tool list is not statically published; introspect
+  via `webstudio man mcp --json`.
+deployment:
+  mode: local-stdio
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
