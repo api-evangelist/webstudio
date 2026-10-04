@@ -52,7 +52,7 @@ tags:
 - Visual Development
 - Web Design
 - CMS
-- Open-Source
+- Open Source
 - CLI
 - MCP
 - Developer Tools
@@ -67,6 +67,7 @@ tags_raw:
 - CLI
 - MCP
 - Developer Tools
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
